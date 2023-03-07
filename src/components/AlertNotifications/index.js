@@ -1,7 +1,6 @@
 import {AiFillCheckCircle} from 'react-icons/ai'
 import {RiErrorWarningFill} from 'react-icons/ri'
 import {MdWarning, MdInfo} from 'react-icons/md'
-
 import Notification from '../Notification'
 import './index.css'
 
@@ -39,7 +38,13 @@ const AlertNotifications = () => {
       <h1 className="title">Alert Notifications</h1>
       <ul className="notification-list">
         {data.map(eachItem => (
-          <Notification key={eachItem.id}>{eachItem}</Notification>
+          <Notification key={eachItem.id}>
+            {eachItem.icon}
+            <div className="content">
+              <h1 className="heading">{eachItem.heading}</h1>
+              <p className="description">{eachItem.description}</p>
+            </div>
+          </Notification>
         ))}
       </ul>
     </div>

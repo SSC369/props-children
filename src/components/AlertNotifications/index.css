@@ -1,0 +1,71 @@
+.notification-list {
+  width: 80%;
+  list-style-type: none;
+  padding-left: 0;
+}
+.success-icon {
+  color: #2dca73;
+  font-size: 50px;
+}
+.error-icon {
+  color: #ff0b37;
+  font-size: 50px;
+}
+.info-icon {
+  color: #0f81e0;
+  font-size: 50px;
+}
+.warning-icon {
+  color: #ffb800;
+  font-size: 50px;
+}
+
+.close-icon {
+  font-size: 50px;
+}
+
+.Success {
+  color: #2dca73;
+}
+.Error {
+  color: #ff0b37;
+}
+.Info {
+  color: #0f81e0;
+}
+.Warning {
+  color: #ffb800;
+}
+.description {
+  color: #475569;
+  font-size: 26px;
+  font-weight: 600;
+}
+.each-item {
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px solid #e5e5e5;
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 80%;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: #0f172a;
+  font-size: 40px;
+}
